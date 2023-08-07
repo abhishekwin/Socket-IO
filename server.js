@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
 
-const PORT = 3000;
+const PORT = 4000;
 
 // Serve the static HTML and JS files from the "public" directory
 app.use(express.static('public'));
